@@ -1,0 +1,248 @@
+@import url("https://fonts.googleapis.com/css2?family=Marcellus&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Architects+Daughter&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Architects+Daughter&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&display=swap");
+
+/* font-family: "Lora", serif; */
+
+html {
+  box-sizing: border-box;
+  font-size: 16px;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ol,
+ul {
+  margin: 0;
+  padding: 0;
+  font-weight: normal;
+}
+
+ol,
+ul,
+li {
+  list-style: none;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+a {
+  text-decoration: none;
+  color: black;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+body {
+  background: #9854cb;
+  font-family: "Lora", serif;
+  color: aliceblue;
+  min-height: 100px;
+  position: relative;
+}
+
+.container {
+  max-width: 1300px;
+  margin: 0 auto;
+  padding: 20px 0;
+}
+
+.first-block {
+  padding-top: 100px;
+  margin-top: -100px;
+}
+
+.first-block-row {
+  align-items: center;
+}
+
+
+.first-block-right {
+  padding: 30px 30px 280px 30px;
+  min-height: 900px;  
+  background: url(../img/right-bg.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  position: relative;
+  z-index: 2;
+  border: 1px solid aquamarine;
+  
+}
+
+.first-block-left {
+  padding: 30px 30px 280px 30px;
+  border: 1px solid aquamarine;
+  
+}
+
+.left-items {
+  gap: 80px;
+  margin-bottom: 100px;
+}
+
+.first-block-left-title {
+  color: #75e8e7;
+  font-size: 64px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 80px;
+  margin-bottom: 20px;
+}
+.first-block-left-text {
+  color: var(--White, #fbfbfb);
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 40px;
+  margin-bottom: 20px;
+}
+
+.nav-btn {
+  padding: 10px 20px;
+  background: #9854cb;
+  margin-left: 277px;
+  margin-top: 8px;
+  color: aliceblue;
+}
+
+.nav-btn:hover {
+  background-color: blue;
+  color: gold;
+}
+
+.first-btn {
+  padding: 10px 20px;
+  background-color: aquamarine;
+}
+
+.first-btn:hover {
+  background-color: blue;
+  color: gold;
+}
+
+.small-block {
+  max-width: 1000px;
+  min-height: 200px;
+  padding: 20px;
+  background-color: beige;
+  position: relative;
+  z-index: 10;
+  margin-top: -239px;
+  color: black;
+}
+
+.navbar-brand img {
+  margin-right: 70px;
+}
+
+.nav-item a {
+  margin-right: 50px;
+  color: aliceblue;
+}
+
+.nav-item a:hover {
+  color: aquamarine;
+  scale: 1.1;
+}
+
+.small-block-card {
+  padding: 20px;
+  border: 1px solid black;
+}
+
+.small-card-title {
+  font-size: 18px;
+  font-weight: 700;
+}
+.small-card-text {
+  font-size: 16px;
+  font-weight: 400;
+  max-width: 328px;
+}
+
+.last-block {
+  padding: 80px 0;
+}
+
+.small-name {
+  font-size: 18px;
+  background-color: black;
+  color: white;
+  display: inline;
+  padding: 5px;
+  
+}
+
+.title-line-text {
+  font-size: 35px;
+  font-weight: 600;
+}
+
+.top-text {
+  font-size: 35px;
+  font-weight: 600;
+  font-family: "Lora";
+}
+
+.top-text span {
+  font-size: 20px;
+  font-weight: 400;
+}
+
+.left-col-card {
+  padding: 30px;
+  background-color: beige;
+  color: black;
+  height: 100%;
+}
+
+.top-img img {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+}
+
+.left-card-text {
+  font-size: 20px;
+  font-weight: 400;
+  font-style: italic;
+  max-width: 657px;
+}
+
+.right-card {
+  background-color: black;
+  color: aliceblue;
+}
+
+/* ====== Header START ===== */
+
+/* ====== Header END ===== */
+
+/* ====== Main START ===== */
+
+/* ====== Main END ===== */
+
+/* ====== Footer START ===== */
+
+/* ====== Footer END ===== */
+
+@media (max-width: 768px) {
+}
